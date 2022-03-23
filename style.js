@@ -3,10 +3,13 @@ console.log(userName);
 
 
 var surName = prompt ('Quale è il tuo cognome?');
-console.log(userName);
+console.log(surName);
 
 
 var colorPrefer = prompt ('Quale è il tuo colore preferito?');
 console.log(colorPrefer);
 
-document.getElementById('nome').innerHTML 
+const saluto = 'ciao';
+const numero = 21
+
+document.getElementById('nome').innerHTML = saluto + '' + userName + '' + surName + '' + colorPrefer + '' + 21 ;
