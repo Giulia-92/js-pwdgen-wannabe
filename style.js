@@ -12,4 +12,4 @@ console.log(colorPrefer);
 const saluto = 'ciao';
 const numero = 21
 
-document.getElementById('nome').innerHTML = saluto + ' ' + userName + ' ' + surName + ' ' + colorPrefer + ' ' + 21 ;
+document.getElementById('nome').innerHTML = saluto + '' + userName + '' + surName + '' + colorPrefer + '' + 21 ;
